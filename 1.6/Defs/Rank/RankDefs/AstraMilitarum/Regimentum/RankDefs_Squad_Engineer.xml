@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+    <Core40k.RankDef>
+        <defName>KHWH_AstraMilitarumRankEngineer</defName>
+        <label>Engineer</label>
+        <description>Combat Engineers are soldiers specialized in tunnelling, counter-mining, and engineering operations.</description>
+        <rankIconPath>UI/Ranks/Militarum/KHWH_AstraMilitarumRankEngineer</rankIconPath>
+        <rankTier>1</rankTier>
+
+        <incompatibleRanks>
+            <li>KHWH_AstraMilitarumRankScribe</li>
+            <li>KHWH_AstraMilitarumRankChirurgeon</li>
+            <li>KHWH_AstraMilitarumRankQuartermaster</li>
+            <li>KHWH_AstraMilitarumRankMarksman</li>
+        </incompatibleRanks>
+
+        <requiredSkills>
+            <Construction>5</Construction>
+            <Crafting>5</Crafting>
+        </requiredSkills>
+        <statOffsets>
+            <BEWH_ArtificialPartsAffinityFactor>0.025</BEWH_ArtificialPartsAffinityFactor>
+            <DeepDrillingSpeed>0.1</DeepDrillingSpeed>
+            <WorkSpeedGlobal>0.025</WorkSpeedGlobal>
+            <HackingSpeed MayRequire="Ludeon.RimWorld.Ideology">0.05</HackingSpeed>
+        </statOffsets>
+    </Core40k.RankDef>
+
+    <!--     -->
+    <Core40k.RankDef>
+        <defName>KHWH_AstraMilitarumRankEngineerCorporal</defName>
+        <label>EngineerCorporal</label>
+        <description>Non-Commissioned Officer working with their commanding Seargent in leading of engineering operations.</description>
+        <rankIconPath>UI/Ranks/Militarum/KHWH_AstraMilitarumRankEngineerCorporal</rankIconPath>
+        <rankTier>4</rankTier>
+
+        <requiredSkills>
+            <Construction>8</Construction>
+            <Crafting>8</Crafting>
+            <Social>4</Social>
+        </requiredSkills>
+
+        <statOffsets>
+            <BEWH_ArtificialPartsAffinityFactor>0.025</BEWH_ArtificialPartsAffinityFactor>
+            <ConstructionSpeed>0.1</ConstructionSpeed>
+            <FixBrokenDownBuildingSuccessChance>0.25</FixBrokenDownBuildingSuccessChance>
+            <WorkSpeedGlobal>0.025</WorkSpeedGlobal>
+            <MechBandwidth MayRequire="Ludeon.RimWorld.Biotech">1</MechBandwidth>
+            <MechFormingSpeed MayRequire="Ludeon.RimWorld.Biotech">0.1</MechFormingSpeed>
+            <HackingSpeed MayRequire="Ludeon.RimWorld.Ideology">0.10</HackingSpeed>
+        </statOffsets>
+    </Core40k.RankDef>
+
+    <!--     -->
+    <Core40k.RankDef>
+        <defName>KHWH_AstraMilitarumRankEngineerSergeant</defName>
+        <label>Engineer Sergeant</label>
+        <description>Non-Commissioned Officer who carry out any tasks assigned to them by their officers and are essential to the running of the regiment.</description>
+        <rankIconPath>UI/Ranks/Militarum/KHWH_AstraMilitarumRankEngineerSergeant</rankIconPath>
+        <rankTier>5</rankTier>
+        <colonyLimitOfRank>(1, 8)</colonyLimitOfRank>
+
+        <requiredSkills>
+            <Construction>10</Construction>
+            <Crafting>10</Crafting>
+            <Social>5</Social>
+        </requiredSkills>
+
+        <statOffsets>
+            <BEWH_ArtificialPartsAffinityFactor>0.05</BEWH_ArtificialPartsAffinityFactor>
+            <ConstructionSpeed>0.05</ConstructionSpeed>
+            <ConstructSuccessChance>0.2</ConstructSuccessChance>
+            <WorkSpeedGlobal>0.05</WorkSpeedGlobal>
+            <MechBandwidth MayRequire="Ludeon.RimWorld.Biotech">1</MechBandwidth>
+        </statOffsets>
+
+        <statFactors>
+            <HackingSpeed MayRequire="Ludeon.RimWorld.Ideology">1.5</HackingSpeed>
+        </statFactors>
+
+    </Core40k.RankDef>
+
+
+</Defs>

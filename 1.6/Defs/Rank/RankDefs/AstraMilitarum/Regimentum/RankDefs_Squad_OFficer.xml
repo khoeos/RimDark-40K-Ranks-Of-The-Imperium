@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+    <!--    Field officer  -->
+    <!--     -->
+    <Core40k.RankDef>
+        <defName>KHWH_AstraMilitarumRankOfficerCadet</defName>
+        <label>Ensign</label>
+        <description>Fresh entrant into the officer track. Still untested, undergoing basic leadership and tactical instruction</description>
+        <rankIconPath>UI/Ranks/Militarum/KHWH_AstraMilitarumRankOfficerCadet</rankIconPath>
+        <rankTier>0</rankTier>
+        <colonyLimitOfRank>(4, 10)</colonyLimitOfRank>
+
+        <requiredSkills>
+            <Shooting>3</Shooting>
+            <Social>3</Social>
+        </requiredSkills>
+
+
+    </Core40k.RankDef>
+
+    <!--     -->
+    <Core40k.RankDef>
+        <defName>KHWH_AstraMilitarumRankOfficerCandidate</defName>
+        <label>Officer Candidate</label>
+        <description>Advanced trainee preparing for commission. Trusted with command simulations, drill instruction, or small auxiliary units under supervision.</description>
+        <rankIconPath>UI/Ranks/Militarum/KHWH_AstraMilitarumRankOfficerCandidate</rankIconPath>
+        <rankTier>3</rankTier>
+        <colonyLimitOfRank>(4, 10)</colonyLimitOfRank>
+
+        <requiredSkills>
+            <Shooting>5</Shooting>
+            <Melee>2</Melee>
+            <Social>5</Social>
+            <Intellectual>2</Intellectual>
+
+        </requiredSkills>
+
+        <statOffsets>
+            <WorkSpeedGlobal>0.025</WorkSpeedGlobal>
+        </statOffsets>
+
+    </Core40k.RankDef>
+
+    <!--     -->
+    <Core40k.RankDef>
+        <defName>KHWH_AstraMilitarumRank2ndLieutenant</defName>
+        <label>2nd Lieutenant</label>
+        <description>Junior commissioned officer. First true rank of command, usually in charge of a squad or platoon.</description>
+        <rankIconPath>UI/Ranks/Militarum/KHWH_AstraMilitarumRank2ndLieutenant</rankIconPath>
+        <rankTier>5</rankTier>
+        <colonyLimitOfRank>(4, 10)</colonyLimitOfRank>
+
+        <requiredSkills>
+            <Shooting>7</Shooting>
+            <Melee>5</Melee>
+            <Social>7</Social>
+            <Intellectual>4</Intellectual>
+        </requiredSkills>
+        <statOffsets>
+            <CertaintyLossFactor MayRequire="Ludeon.RimWorld.Ideology">-0.05</CertaintyLossFactor>
+        </statOffsets>
+        <statFactors>
+            <GlobalLearningFactor>1.2</GlobalLearningFactor>
+        </statFactors>
+    </Core40k.RankDef>
+
+    <!--     -->
+    <Core40k.RankDef>
+        <defName>KHWH_AstraMilitarumRankLieutenant</defName>
+        <label>Lieutenant</label>
+        <description>The most junior officer on the battlefield commanding Imperial Guard forces</description>
+        <rankIconPath>UI/Ranks/Militarum/KHWH_AstraMilitarumRankLieutenant</rankIconPath>
+        <rankTier>6</rankTier>
+        <colonyLimitOfRank>(2, 10)</colonyLimitOfRank>
+
+        <requiredSkills>
+            <Shooting>9</Shooting>
+            <Melee>7</Melee>
+            <Social>9</Social>
+            <Intellectual>6</Intellectual>
+        </requiredSkills>
+
+        <statOffsets>
+            <CertaintyLossFactor MayRequire="Ludeon.RimWorld.Ideology">-0.05</CertaintyLossFactor>
+            <SocialImpact>0.1</SocialImpact>
+            <NegotiationAbility>0.1</NegotiationAbility>
+        </statOffsets>
+    </Core40k.RankDef>
+
+    <Core40k.RankDef>
+        <defName>KHWH_AstraMilitarumRankCaptain</defName>
+        <label>Captain</label>
+        <description>Captains act as combat unit commanders, being more of a 'fighting role' than a leading one</description>
+        <rankIconPath>UI/Ranks/Militarum/KHWH_AstraMilitarumRankCaptain</rankIconPath>
+        <rankTier>8</rankTier>
+        <colonyLimitOfRank>(2, 20)</colonyLimitOfRank>
+
+        <requiredSkills>
+            <Shooting>10</Shooting>
+            <Melee>9</Melee>
+            <Social>10</Social>
+            <Intellectual>7</Intellectual>
+        </requiredSkills>
+
+        <statOffsets>
+            <CertaintyLossFactor MayRequire="Ludeon.RimWorld.Ideology">-0.1</CertaintyLossFactor>
+            <SocialImpact>0.2</SocialImpact>
+            <NegotiationAbility>0.1</NegotiationAbility>
+        </statOffsets>
+    </Core40k.RankDef>
+
+    <Core40k.RankDef>
+        <defName>KHWH_AstraMilitarumRankColonel</defName>
+        <label>Colonel</label>
+        <description>Commanding officer of an Imperial Guard Regiment. They are responsible for the troops and equipment under their command.</description>
+        <rankIconPath>UI/Ranks/Militarum/KHWH_AstraMilitarumRankColonel</rankIconPath>
+        <rankTier>9</rankTier>
+        <colonyLimitOfRank>(1, 0)</colonyLimitOfRank>
+
+        <requiredSkills>
+            <Shooting>12</Shooting>
+            <Melee>10</Melee>
+            <Social>12</Social>
+            <Intellectual>8</Intellectual>
+        </requiredSkills>
+
+        <statOffsets>
+            <CertaintyLossFactor MayRequire="Ludeon.RimWorld.Ideology">-0.5</CertaintyLossFactor>
+            <SocialImpact>0.4</SocialImpact>
+        </statOffsets>
+    </Core40k.RankDef>
+
+    <!--    <Core40k.RankDef>-->
+    <!--        <defName>KHWH_AstraMilitarumRankImperialTactician</defName>-->
+    <!--        <label>Imperial Tactician</label>-->
+    <!--        <description>Placeholder</description>-->
+    <!--        <rankIconPath>UI/Ranks/Militarum/KHWH_</rankIconPath>-->
+    <!--        <rankCategory>KHWH_AstraMilitarumRankCategory</rankCategory>-->
+    <!--        <displayPosition>(10, 1)</displayPosition>-->
+
+    <!--        <rankTier>9</rankTier>-->
+
+    <!--        <rankRequirements>-->
+    <!--            <KHWH_AstraMilitarumRankColonel>1</KHWH_AstraMilitarumRankColonel>-->
+    <!--        </rankRequirements>-->
+
+    <!--    </Core40k.RankDef>-->
+
+    <!--    <Core40k.RankDef>-->
+    <!--        <defName>KHWH_AstraMilitarumRankMajorGeneral</defName>-->
+    <!--        <label>Major General</label>-->
+    <!--        <description>Placeholder</description>-->
+    <!--        <rankIconPath>UI/Ranks/Militarum/KHWH_</rankIconPath>-->
+    <!--        <rankCategory>KHWH_AstraMilitarumRankCategory</rankCategory>-->
+    <!--        <displayPosition>(11, 1)</displayPosition>-->
+
+    <!--        <rankTier>10</rankTier>-->
+
+    <!--        <rankRequirements>-->
+    <!--            <KHWH_AstraMilitarumRankImperialTactician>1</KHWH_AstraMilitarumRankImperialTactician>-->
+    <!--        </rankRequirements>-->
+
+    <!--    </Core40k.RankDef>-->
+
+    <!--    <Core40k.RankDef>-->
+    <!--        <defName>KHWH_AstraMilitarumRankLieutenantGeneral</defName>-->
+    <!--        <label>Lieutenant General</label>-->
+    <!--        <description>Placeholder</description>-->
+    <!--        <rankIconPath>UI/Ranks/Militarum/KHWH_</rankIconPath>-->
+    <!--        <rankCategory>KHWH_AstraMilitarumRankCategory</rankCategory>-->
+    <!--        <displayPosition>(11, 2)</displayPosition>-->
+
+    <!--        <rankTier>11</rankTier>-->
+
+    <!--        <rankRequirements>-->
+    <!--            <KHWH_AstraMilitarumRankMajorGeneral>1</KHWH_AstraMilitarumRankMajorGeneral>-->
+    <!--        </rankRequirements>-->
+
+    <!--    </Core40k.RankDef>-->
+
+    <!--    <Core40k.RankDef>-->
+    <!--        <defName>KHWH_AstraMilitarumRankMarshall</defName>-->
+    <!--        <label>Marshall</label>-->
+    <!--        <description>Placeholder</description>-->
+    <!--        <rankIconPath>UI/Ranks/Militarum/KHWH_</rankIconPath>-->
+    <!--        <rankCategory>KHWH_AstraMilitarumRankCategory</rankCategory>-->
+    <!--        <displayPosition>(10, 2)</displayPosition>-->
+
+    <!--        <rankTier>12</rankTier>-->
+
+    <!--        <rankRequirements>-->
+    <!--            <KHWH_AstraMilitarumRankLieutenantGeneral>1</KHWH_AstraMilitarumRankLieutenantGeneral>-->
+    <!--        </rankRequirements>-->
+
+    <!--    </Core40k.RankDef>-->
+
+    <!--    <Core40k.RankDef>-->
+    <!--        <defName>KHWH_AstraMilitarumRankGeneral</defName>-->
+    <!--        <label>General</label>-->
+    <!--        <description>Placeholder</description>-->
+    <!--        <rankIconPath>UI/Ranks/Militarum/KHWH_</rankIconPath>-->
+    <!--        <rankCategory>KHWH_AstraMilitarumRankCategory</rankCategory>-->
+    <!--        <displayPosition>(9, 2)</displayPosition>-->
+
+    <!--        <rankTier>13</rankTier>-->
+
+    <!--        <rankRequirements>-->
+    <!--            <KHWH_AstraMilitarumRankMarshall>1</KHWH_AstraMilitarumRankMarshall>-->
+    <!--        </rankRequirements>-->
+
+    <!--    </Core40k.RankDef>-->
+
+    <!--    <Core40k.RankDef>-->
+    <!--        <defName>KHWH_AstraMilitarumRankLordGeneral</defName>-->
+    <!--        <label>Lord General</label>-->
+    <!--        <description>Placeholder</description>-->
+    <!--        <rankIconPath>UI/Ranks/Militarum/KHWH_</rankIconPath>-->
+    <!--        <rankCategory>KHWH_AstraMilitarumRankCategory</rankCategory>-->
+    <!--        <displayPosition>(8, 2)</displayPosition>-->
+
+    <!--        <rankTier>14</rankTier>-->
+
+    <!--        <rankRequirements>-->
+    <!--            <KHWH_AstraMilitarumRankGeneral>1</KHWH_AstraMilitarumRankGeneral>-->
+    <!--        </rankRequirements>-->
+
+    <!--    </Core40k.RankDef>-->
+
+    <!--    <Core40k.RankDef>-->
+    <!--        <defName>KHWH_AstraMilitarumRankLordCommander</defName>-->
+    <!--        <label>Lord Commander</label>-->
+    <!--        <description>Placeholder</description>-->
+    <!--        <rankIconPath>UI/Ranks/Militarum/KHWH_</rankIconPath>-->
+    <!--        <rankCategory>KHWH_AstraMilitarumRankCategory</rankCategory>-->
+    <!--        <displayPosition>(8, 3)</displayPosition>-->
+
+    <!--        <rankTier>15</rankTier>-->
+
+    <!--        <rankRequirements>-->
+    <!--            <KHWH_AstraMilitarumRankLordGeneral>1</KHWH_AstraMilitarumRankLordGeneral>-->
+    <!--        </rankRequirements>-->
+
+    <!--    </Core40k.RankDef>-->
+
+</Defs>

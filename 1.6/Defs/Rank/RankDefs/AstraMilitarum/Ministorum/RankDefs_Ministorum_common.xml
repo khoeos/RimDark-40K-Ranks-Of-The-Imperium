@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+    <!--    Field officer  -->
+    <!--     -->
+    <KhRanks40k.ExpandedRankDef>
+        <defName>KHWH_Ministorum_Progena</defName>
+        <label>Progena</label>
+        <description>lorem</description>
+        <rankIconPath>UI/Ranks/Militarum/KHWH_AstraMilitarumRankRecruit</rankIconPath>
+        <defaultFirstRank>true</defaultFirstRank>
+        <rankTier>0</rankTier>
+        <requiredAgeRange>(3, 12)</requiredAgeRange>
+
+    </KhRanks40k.ExpandedRankDef>
+
+
+</Defs>

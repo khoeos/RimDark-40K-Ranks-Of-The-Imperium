@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+    <!--    Field officer  -->
+    <!--     -->
+    <Core40k.RankDef>
+        <defName>KHWH_AstraMilitarumRankRecruit</defName>
+        <label>Recruit</label>
+        <description>A civilian volunteer or drafted individual undergoing initial training</description>
+        <rankIconPath>UI/Ranks/Militarum/KHWH_AstraMilitarumRankRecruit</rankIconPath>
+        <defaultFirstRank>true</defaultFirstRank>
+        <rankTier>0</rankTier>
+        <requiredSkills>
+            <Shooting>2</Shooting>
+            <Melee>2</Melee>
+        </requiredSkills>
+        <incompatibleRanks>
+            <li>KHWH_AstraMilitarumRankConscript</li>
+        </incompatibleRanks>
+    </Core40k.RankDef>
+
+    <Core40k.RankDef>
+        <defName>KHWH_AstraMilitarumRankConscript</defName>
+        <label>Conscript</label>
+        <description>A civilian forcefully pressed into service with minimal preparation.</description>
+        <rankIconPath>UI/Ranks/Militarum/KHWH_AstraMilitarumRankConscript</rankIconPath>
+        <defaultFirstRank>true</defaultFirstRank>
+        <rankTier>0</rankTier>
+
+        <incompatibleRanks>
+            <li>KHWH_AstraMilitarumRankRecruit</li>
+            <li>KHWH_AstraMilitarumRankOfficerCadet</li>
+        </incompatibleRanks>
+
+    </Core40k.RankDef>
+
+
+</Defs>

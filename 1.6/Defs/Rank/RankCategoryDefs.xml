@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+    <!--    Astra Militarum-->
+    <Core40k.RankCategoryDef>
+        <defName>KHWH_AstraMilitarumRankCategory</defName>
+        <label>Militarum</label>
+        <description>Ranks of the Astra Militarum.</description>
+        <ranks>
+            <li>
+                <rankDef>KHWH_AstraMilitarumRankScout</rankDef>
+                <displayPosition>(1, 4)</displayPosition>
+                <rankRequirementsOneAmong>
+                    <KHWH_AstraMilitarumRankRecruit>3</KHWH_AstraMilitarumRankRecruit>
+                    <KHWH_AstraMilitarumRankConscript>10</KHWH_AstraMilitarumRankConscript>
+                </rankRequirementsOneAmong>
+            </li>
+
+            <!--    Recon - Marskaman   -->
+            <li>
+                <rankDef>KHWH_AstraMilitarumRankMarksman</rankDef>
+                <displayPosition>(3, 4)</displayPosition>
+                <rankRequirementsOneAmong>
+                    <KHWH_AstraMilitarumRankScout>10</KHWH_AstraMilitarumRankScout>
+                    <KHWH_AstraMilitarumRankGuardsman>15</KHWH_AstraMilitarumRankGuardsman>
+                </rankRequirementsOneAmong>
+            </li>
+
+            <!--    Recon - Sharpshooter   -->
+            <li>
+                <rankDef>KHWH_AstraMilitarumRankSharpshooter</rankDef>
+                <displayPosition>(4, 4)</displayPosition>
+                <rankRequirements>
+                    <KHWH_AstraMilitarumRankMarksman>15</KHWH_AstraMilitarumRankMarksman>
+                </rankRequirements>
+            </li>
+
+            <!--    Recon - Sniper      -->
+            <li>
+                <rankDef>KHWH_AstraMilitarumRankSniper</rankDef>
+                <displayPosition>(5, 4)</displayPosition>
+                <rankRequirements>
+                    <KHWH_AstraMilitarumRankSharpshooter>25</KHWH_AstraMilitarumRankSharpshooter>
+                </rankRequirements>
+            </li>
+
+            <li>
+                <rankDef>KHWH_AstraMilitarumRankRecruit</rankDef>
+                <displayPosition>(0, 2)</displayPosition>
+            </li>
+
+            <li>
+                <rankDef>KHWH_AstraMilitarumRankConscript</rankDef>
+                <displayPosition>(0, 4)</displayPosition>
+            </li>
+
+            <li>
+                <rankDef>KHWH_AstraMilitarumRankEngineer</rankDef>
+                <displayPosition>(1, 1)</displayPosition>
+                <rankRequirements>
+                    <KHWH_AstraMilitarumRankRecruit>10</KHWH_AstraMilitarumRankRecruit>
+                </rankRequirements>
+            </li>
+
+            <!--     -->
+            <li>
+                <rankDef>KHWH_AstraMilitarumRankEngineerCorporal</rankDef>
+                <displayPosition>(4, 1)</displayPosition>
+                <rankRequirements>
+                    <KHWH_AstraMilitarumRankEngineer>20</KHWH_AstraMilitarumRankEngineer>
+                </rankRequirements>
+            </li>
+
+            <!--     -->
+            <li>
+                <rankDef>KHWH_AstraMilitarumRankEngineerSergeant</rankDef>
+                <displayPosition>(5, 1)</displayPosition>
+                <rankRequirements>
+                    <KHWH_AstraMilitarumRankEngineerCorporal>45</KHWH_AstraMilitarumRankEngineerCorporal>
+                </rankRequirements>
+            </li>
+
+            <li>
+                <rankDef>KHWH_AstraMilitarumRankTrooper</rankDef>
+                <displayPosition>(1, 3)</displayPosition>
+                <rankRequirementsOneAmong>
+                    <KHWH_AstraMilitarumRankRecruit>5</KHWH_AstraMilitarumRankRecruit>
+                    <KHWH_AstraMilitarumRankConscript>15</KHWH_AstraMilitarumRankConscript>
+                </rankRequirementsOneAmong>
+            </li>
+
+            <!--     -->
+            <li>
+                <rankDef>KHWH_AstraMilitarumRankGuardsman</rankDef>
+                <displayPosition>(2, 3)</displayPosition>
+                <rankRequirementsOneAmong>
+                    <KHWH_AstraMilitarumRankTrooper>15</KHWH_AstraMilitarumRankTrooper>
+                    <KHWH_AstraMilitarumRankScout>15</KHWH_AstraMilitarumRankScout>
+                </rankRequirementsOneAmong>
+            </li>
+
+            <!--     -->
+            <li>
+                <rankDef>KHWH_AstraMilitarumRankCorporal</rankDef>
+                <displayPosition>(4, 3)</displayPosition>
+                <rankRequirements>
+                    <KHWH_AstraMilitarumRankGuardsman>25</KHWH_AstraMilitarumRankGuardsman>
+                </rankRequirements>
+            </li>
+
+            <!--     -->
+            <li>
+                <rankDef>KHWH_AstraMilitarumRankSergeant</rankDef>
+                <displayPosition>(5, 3)</displayPosition>
+                <rankRequirements>
+                    <KHWH_AstraMilitarumRankCorporal>25</KHWH_AstraMilitarumRankCorporal>
+                </rankRequirements>
+            </li>
+
+            <!--    Stormtrooper -->
+
+
+            <!--     -->
+            <li>
+                <rankDef>KHWH_AstraMilitarumRankStormTrooper</rankDef>
+                <displayPosition>(3, 2)</displayPosition>
+                <rankRequirements>
+                    <KHWH_AstraMilitarumRankGuardsman>15</KHWH_AstraMilitarumRankGuardsman>
+                </rankRequirements>
+            </li>
+
+            <!--     -->
+            <li>
+                <rankDef>KHWH_AstraMilitarumRankStormTrooperSergeant</rankDef>
+                <displayPosition>(5, 2)</displayPosition>
+                <rankRequirements>
+                    <KHWH_AstraMilitarumRankStormTrooper>25</KHWH_AstraMilitarumRankStormTrooper>
+                </rankRequirements>
+            </li>
+
+            <li>
+                <rankDef>KHWH_AstraMilitarumRankChirurgeon</rankDef>
+                <displayPosition>(1, 0)</displayPosition>
+                <rankRequirements>
+                    <KHWH_AstraMilitarumRankRecruit>15</KHWH_AstraMilitarumRankRecruit>
+                </rankRequirements>
+            </li>
+
+            <li>
+                <rankDef>KHWH_AstraMilitarumRankMedicaeOfficer</rankDef>
+                <displayPosition>(3, 0)</displayPosition>
+                <rankRequirements>
+                    <KHWH_AstraMilitarumRankChirurgeon>15</KHWH_AstraMilitarumRankChirurgeon>
+                </rankRequirements>
+            </li>
+
+            <li>
+                <rankDef>KHWH_AstraMilitarumRankMedicaeMaster</rankDef>
+                <displayPosition>(6, 0)</displayPosition>
+                <rankRequirements>
+                    <KHWH_AstraMilitarumRankMedicaeOfficer>25</KHWH_AstraMilitarumRankMedicaeOfficer>
+                </rankRequirements>
+            </li>
+
+            <!--    Scribe  -->
+            <li>
+                <rankDef>KHWH_AstraMilitarumRankScribe</rankDef>
+                <displayPosition>(1, -1)</displayPosition>
+                <rankRequirements>
+                    <KHWH_AstraMilitarumRankRecruit>15</KHWH_AstraMilitarumRankRecruit>
+                </rankRequirements>
+            </li>
+
+            <li>
+                <rankDef>KHWH_AstraMilitarumRankLogistician</rankDef>
+                <displayPosition>(3, -1)</displayPosition>
+                <rankRequirements>
+                    <KHWH_AstraMilitarumRankScribe>15</KHWH_AstraMilitarumRankScribe>
+                </rankRequirements>
+            </li>
+
+            <li>
+                <rankDef>KHWH_AstraMilitarumRankOrdinate</rankDef>
+                <displayPosition>(6, -1)</displayPosition>
+                <rankRequirements>
+                    <KHWH_AstraMilitarumRankLogistician>25</KHWH_AstraMilitarumRankLogistician>
+                </rankRequirements>
+            </li>
+
+            <!--    Quartermaster   -->
+            <li>
+                <rankDef>KHWH_AstraMilitarumRankQuartermaster</rankDef>
+                <displayPosition>(1, -2)</displayPosition>
+                <rankRequirements>
+                    <KHWH_AstraMilitarumRankRecruit>15</KHWH_AstraMilitarumRankRecruit>
+                </rankRequirements>
+            </li>
+
+            <li>
+                <rankDef>KHWH_AstraMilitarumRankSupplyOfficer</rankDef>
+                <displayPosition>(3, -2)</displayPosition>
+                <rankRequirements>
+                    <KHWH_AstraMilitarumRankQuartermaster>15</KHWH_AstraMilitarumRankQuartermaster>
+                </rankRequirements>
+            </li>
+
+            <li>
+                <rankDef>KHWH_AstraMilitarumRankLogisticMaster</rankDef>
+                <displayPosition>(6, -2)</displayPosition>
+                <rankRequirements>
+                    <KHWH_AstraMilitarumRankSupplyOfficer>25</KHWH_AstraMilitarumRankSupplyOfficer>
+                </rankRequirements>
+
+            </li>
+            <li>
+                <rankDef>KHWH_AstraMilitarumRankOfficerCadet</rankDef>
+                <displayPosition>(0, 5)</displayPosition>
+            </li>
+
+            <!--     -->
+            <li>
+                <rankDef>KHWH_AstraMilitarumRankOfficerCandidate</rankDef>
+                <displayPosition>(3, 5)</displayPosition>
+                <rankRequirements>
+                    <KHWH_AstraMilitarumRankOfficerCadet>10</KHWH_AstraMilitarumRankOfficerCadet>
+                </rankRequirements>
+
+            </li>
+
+            <!--     -->
+            <li>
+                <rankDef>KHWH_AstraMilitarumRank2ndLieutenant</rankDef>
+                <displayPosition>(5, 5)</displayPosition>
+                <rankRequirements>
+                    <KHWH_AstraMilitarumRankOfficerCandidate>15</KHWH_AstraMilitarumRankOfficerCandidate>
+                </rankRequirements>
+            </li>
+            <li>
+                <rankDef>KHWH_AstraMilitarumRankLieutenant</rankDef>
+                <displayPosition>(7, 2)</displayPosition>
+                <rankRequirements>
+                    <KHWH_AstraMilitarumRank2ndLieutenant>40</KHWH_AstraMilitarumRank2ndLieutenant>
+                </rankRequirements>
+                <rankRequirementsOneAmong>
+                    <KHWH_AstraMilitarumRankStormTrooperSergeant>20</KHWH_AstraMilitarumRankStormTrooperSergeant>
+                    <KHWH_AstraMilitarumRankSergeant>20</KHWH_AstraMilitarumRankSergeant>
+                    <KHWH_AstraMilitarumRankSniper>30</KHWH_AstraMilitarumRankSniper>
+                    <KHWH_AstraMilitarumRankEngineerSergeant>20</KHWH_AstraMilitarumRankEngineerSergeant>
+                </rankRequirementsOneAmong>
+
+            </li>
+            <li>
+                <rankDef>KHWH_AstraMilitarumRankCaptain</rankDef>
+                <displayPosition>(8, 2)</displayPosition>
+                <rankRequirements>
+                    <KHWH_AstraMilitarumRankLieutenant>30</KHWH_AstraMilitarumRankLieutenant>
+                </rankRequirements>
+            </li>
+            <li>
+                <rankDef>KHWH_AstraMilitarumRankColonel</rankDef>
+                <displayPosition>(9, 2)</displayPosition>
+                <rankRequirements>
+                    <KHWH_AstraMilitarumRankCaptain>40</KHWH_AstraMilitarumRankCaptain>
+                </rankRequirements>
+            </li>
+        </ranks>
+    </Core40k.RankCategoryDef>
+
+    <!-- <Core40k.RankCategoryDef>
+        <defName>KHWH_AstraMilitarumSpecialRankCategory</defName>
+        <label>Ministorum</label>
+        <description>Special Ranks of the astra militarum.</description>
+        <ranks>
+            <li>
+                <rankDef>KHWH_Ministorum_Progena</rankDef>
+                <displayPosition>(0, 2)</displayPosition>
+            </li>
+        </ranks>
+    </Core40k.RankCategoryDef> -->
+
+
+</Defs>

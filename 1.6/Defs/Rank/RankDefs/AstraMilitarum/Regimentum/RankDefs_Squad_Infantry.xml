@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+    <!--   Infantry - Trooper  -->
+    <Core40k.RankDef>
+        <defName>KHWH_AstraMilitarumRankTrooper</defName>
+        <label>Trooper</label>
+        <description>Standard infantryman who has completed basic training.</description>
+        <rankIconPath>UI/Ranks/Militarum/KHWH_AstraMilitarumRankTrooper</rankIconPath>
+        <rankTier>1</rankTier>
+
+        <requiredSkills>
+            <Shooting>4</Shooting>
+            <Melee>4</Melee>
+        </requiredSkills>
+    </Core40k.RankDef>
+
+    <!--     -->
+    <Core40k.RankDef>
+        <defName>KHWH_AstraMilitarumRankGuardsman</defName>
+        <label>Guardsman</label>
+        <description>The standard rank of a trained soldier of the Imperial Guard</description>
+        <rankIconPath>UI/Ranks/Militarum/KHWH_AstraMilitarumRankGuardsman</rankIconPath>
+        <rankTier>2</rankTier>
+
+        <requiredSkills>
+            <Shooting>6</Shooting>
+            <Melee>5</Melee>
+        </requiredSkills>
+
+        <statOffsets>
+            <MeleeDodgeChance>0.25</MeleeDodgeChance>
+            <MoveSpeed>0.025</MoveSpeed>
+            <MentalBreakThreshold>0.1</MentalBreakThreshold>
+        </statOffsets>
+
+    </Core40k.RankDef>
+
+    <!--     -->
+    <Core40k.RankDef>
+        <defName>KHWH_AstraMilitarumRankCorporal</defName>
+        <label>Corporal</label>
+        <description>Non-Commissioned Officer working with their commanding Sergeants in leading troops into battle and overseeing standard regimental operations.</description>
+        <rankIconPath>UI/Ranks/Militarum/KHWH_AstraMilitarumRankCorporal</rankIconPath>
+        <rankTier>4</rankTier>
+        <colonyLimitOfRank>(3, 6)</colonyLimitOfRank>
+
+        <incompatibleRanks>
+            <li>KHWH_AstraMilitarumRankEngineer</li>
+            <li>KHWH_AstraMilitarumRankStormTrooper</li>
+            <li>KHWH_AstraMilitarumRankMarksman</li>
+        </incompatibleRanks>
+
+        <requiredSkills>
+            <Shooting>7</Shooting>
+            <Melee>5</Melee>
+            <Social>4</Social>
+        </requiredSkills>
+
+        <statOffsets>
+            <CertaintyLossFactor MayRequire="Ludeon.RimWorld.Ideology">-0.05</CertaintyLossFactor>
+            <MeleeDodgeChance>0.25</MeleeDodgeChance>
+            <RangedCooldownFactor>-0.02</RangedCooldownFactor>
+            <MeleeCooldownFactor>-0.02</MeleeCooldownFactor>
+        </statOffsets>
+
+        <statFactors>
+            <ShootingAccuracyPawn>1.01</ShootingAccuracyPawn>
+            <MeleeHitChance>1.01</MeleeHitChance>
+        </statFactors>
+    </Core40k.RankDef>
+
+    <!--     -->
+    <Core40k.RankDef>
+        <defName>KHWH_AstraMilitarumRankSergeant</defName>
+        <label>Sergeant</label>
+        <description>Non-Commissioned Officer who carry out any tasks assigned to them by their officers and are essential to the running of the regiment.</description>
+        <rankIconPath>UI/Ranks/Militarum/KHWH_AstraMilitarumRankSergeant</rankIconPath>
+        <rankTier>5</rankTier>
+        <colonyLimitOfRank>(2, 8)</colonyLimitOfRank>
+
+        <requiredSkills>
+            <Shooting>8</Shooting>
+            <Melee>6</Melee>
+            <Social>5</Social>
+        </requiredSkills>
+
+        <statOffsets>
+            <CertaintyLossFactor MayRequire="Ludeon.RimWorld.Ideology">-0.05</CertaintyLossFactor>
+            <MeleeDodgeChance>0.6</MeleeDodgeChance>
+            <RangedCooldownFactor>-0.04</RangedCooldownFactor>
+            <MeleeCooldownFactor>-0.04</MeleeCooldownFactor>
+        </statOffsets>
+
+        <statFactors>
+            <ShootingAccuracyPawn>1.01</ShootingAccuracyPawn>
+            <MeleeHitChance>1.02</MeleeHitChance>
+        </statFactors>
+    </Core40k.RankDef>
+
+    <!--    Stormtrooper -->
+
+    <!--     -->
+    <Core40k.RankDef>
+        <defName>KHWH_AstraMilitarumRankStormTrooper</defName>
+        <label>StormTrooper</label>
+        <description>Specially-trained Guardsmen used to perform various types of special operations.</description>
+        <rankIconPath>UI/Ranks/Militarum/KHWH_AstraMilitarumRankStormTrooper</rankIconPath>
+        <rankTier>3</rankTier>
+
+        <incompatibleRanks>
+            <li>KHWH_AstraMilitarumRankScribe</li>
+            <li>KHWH_AstraMilitarumRankChirurgeon</li>
+            <li>KHWH_AstraMilitarumRankQuartermaster</li>
+            <li>KHWH_AstraMilitarumRankEngineer</li>
+            <li>KHWH_AstraMilitarumRankMarksman</li>
+        </incompatibleRanks>
+
+        <requiredSkills>
+            <Shooting>9</Shooting>
+            <Melee>9</Melee>
+        </requiredSkills>
+
+        <statOffsets>
+            <CertaintyLossFactor MayRequire="Ludeon.RimWorld.Ideology">-0.025</CertaintyLossFactor>
+            <MeleeDodgeChance>0.5</MeleeDodgeChance>
+            <RangedCooldownFactor>-0.03</RangedCooldownFactor>
+            <MeleeCooldownFactor>-0.03</MeleeCooldownFactor>
+            <ComfyTemperatureMin>-10</ComfyTemperatureMin>
+            <ComfyTemperatureMax>10</ComfyTemperatureMax>
+        </statOffsets>
+
+        <statFactors>
+            <PainShockThreshold>1.1</PainShockThreshold>
+        </statFactors>
+    </Core40k.RankDef>
+
+    <!--     -->
+    <Core40k.RankDef>
+        <defName>KHWH_AstraMilitarumRankStormTrooperSergeant</defName>
+        <label>Stormtrooper Sergeant</label>
+        <description>Non-Commissioned officer leading groups of stormtooper into various types of special operations.</description>
+        <rankIconPath>UI/Ranks/Militarum/KHWH_AstraMilitarumRankStormTrooperSergeant</rankIconPath>
+        <rankTier>5</rankTier>
+        <colonyLimitOfRank>(1, 8)</colonyLimitOfRank>
+
+        <requiredSkills>
+            <Shooting>11</Shooting>
+            <Melee>11</Melee>
+            <Social>5</Social>
+        </requiredSkills>
+        <statOffsets>
+            <CertaintyLossFactor MayRequire="Ludeon.RimWorld.Ideology">-0.05</CertaintyLossFactor>
+            <MeleeDodgeChance>0.75</MeleeDodgeChance>
+            <RangedCooldownFactor>-0.05</RangedCooldownFactor>
+            <MeleeCooldownFactor>-0.05</MeleeCooldownFactor>
+        </statOffsets>
+
+        <statFactors>
+            <ShootingAccuracyPawn>1.02</ShootingAccuracyPawn>
+            <MeleeHitChance>1.03</MeleeHitChance>
+        </statFactors>
+    </Core40k.RankDef>
+
+</Defs>

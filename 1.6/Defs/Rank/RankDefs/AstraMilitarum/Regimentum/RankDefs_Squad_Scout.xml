@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+    <!--    Recon - Scout    -->
+    <Core40k.RankDef>
+        <defName>KHWH_AstraMilitarumRankScout</defName>
+        <label>Scout</label>
+        <description>Scouts are used for reconnaissance and to lead troops through difficult terrain.</description>
+        <rankIconPath>UI/Ranks/Militarum/KHWH_AstraMilitarumRankScout</rankIconPath>
+        <rankTier>1</rankTier>
+
+        <requiredSkills>
+            <Shooting>5</Shooting>
+            <Plants>4</Plants>
+        </requiredSkills>
+
+        <statOffsets>
+            <MoveSpeed>0.025</MoveSpeed>
+        </statOffsets>
+
+        <statFactors>
+            <PawnTrapSpringChance>0.5</PawnTrapSpringChance>
+        </statFactors>
+
+    </Core40k.RankDef>
+
+    <!--    Recon - Marksman   -->
+    <Core40k.RankDef>
+        <defName>KHWH_AstraMilitarumRankMarksman</defName>
+        <label>Marksman</label>
+        <description>Soldier in training for long range engagement and precision shooting.</description>
+        <rankIconPath>UI/Ranks/Militarum/KHWH_AstraMilitarumRankMarksman</rankIconPath>
+        <rankTier>2</rankTier>
+
+        <incompatibleRanks>
+            <li>KHWH_AstraMilitarumRankScribe</li>
+            <li>KHWH_AstraMilitarumRankChirurgeon</li>
+            <li>KHWH_AstraMilitarumRankQuartermaster</li>
+            <li>KHWH_AstraMilitarumRankEngineer</li>
+            <li>KHWH_AstraMilitarumRankEngineer</li>
+            <li>KHWH_AstraMilitarumRankStormTrooper</li>
+        </incompatibleRanks>
+
+        <requiredSkills>
+            <Shooting>8</Shooting>
+        </requiredSkills>
+
+        <statOffsets>
+            <MoveSpeed>0.025</MoveSpeed>
+            <HuntingStealth>0.1</HuntingStealth>
+        </statOffsets>
+
+        <statFactors>
+            <ShootingAccuracyPawn>1.05</ShootingAccuracyPawn>
+        </statFactors>
+
+    </Core40k.RankDef>
+
+    <!--    Recon - Sharpshooter   -->
+    <Core40k.RankDef>
+        <defName>KHWH_AstraMilitarumRankSharpshooter</defName>
+        <label>Sharpshooter</label>
+        <description>Trained snipers of the Imperial Guard</description>
+        <description>Placeholder</description>
+        <rankIconPath>UI/Ranks/Militarum/KHWH_AstraMilitarumRankSharpshooter</rankIconPath>
+        <rankTier>3</rankTier>
+
+        <requiredSkills>
+            <Shooting>10</Shooting>
+        </requiredSkills>
+
+        <statOffsets>
+            <RangedCooldownFactor>-0.02</RangedCooldownFactor>
+        </statOffsets>
+
+        <statFactors>
+            <ShootingAccuracyPawn>1.1</ShootingAccuracyPawn>
+        </statFactors>
+
+    </Core40k.RankDef>
+
+    <!--    Recon - Sniper      -->
+    <Core40k.RankDef>
+        <defName>KHWH_AstraMilitarumRankSniper</defName>
+        <label>Sniper</label>
+        <description>Expert in long range engagement, assassination and operation in hostile terrain. Often alone or leading an independent small squad.</description>
+        <rankIconPath>UI/Ranks/Militarum/KHWH_AstraMilitarumRankSniper</rankIconPath>
+        <rankTier>5</rankTier>
+        <colonyLimitOfRank>(1, 8)</colonyLimitOfRank>
+
+        <requiredSkills>
+            <Shooting>12</Shooting>
+        </requiredSkills>
+
+        <statOffsets>
+            <RangedCooldownFactor>-0.02</RangedCooldownFactor>
+            <AimingDelayFactor>-0.01</AimingDelayFactor>
+        </statOffsets>
+
+        <statFactors>
+            <ShootingAccuracyPawn>1.2</ShootingAccuracyPawn>
+        </statFactors>
+
+    </Core40k.RankDef>
+
+</Defs>

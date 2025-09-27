@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+    <name>[DEV] Rimdark 40K - Ranks of the imperium</name>
+    <author>Khoeos</author>
+    <description>Add ranks for the astra militarum for the Rimdark 40k framework</description>
+    <supportedVersions>
+        <li>1.6</li>
+    </supportedVersions>
+    <packageId>Khoeos.Dev.RimDark.ImperiumRanks</packageId>
+
+    <modDependencies>
+        <!--        <li>-->
+        <!--            <packageId>Ludeon.RimWorld.Biotech</packageId>-->
+        <!--            <displayName>Biotech</displayName>-->
+        <!--        </li>-->
+        <li>
+            <packageId>Phonicmas.RimDark.FrameworkCore</packageId>
+            <displayName>RimDark 40k - Framework</displayName>
+            <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3267464767</steamWorkshopUrl>
+        </li>
+    </modDependencies>
+    <loadAfter>
+        <li>Ludeon.RimWorld</li>
+        <li>Ludeon.RimWorld.Biotech</li>
+        <li>brrainz.harmony</li>
+        <li>OskarPotocki.VanillaFactionsExpanded.Core</li>
+        <li>RedMattis.BetterPrerequisites</li>
+        <li>Dubwise.Rimatomics</li>
+        <li>dubwise.dubsbadhygiene</li>
+        <li>ceteam.combatextended</li>
+        <li>Katavrik.CrashLanding</li>
+        <li>Phonicmas.RimDark.FrameworkCore</li>
+        <li>vanillaexpanded.vpsycastse</li>
+        <li>Phonicmas.RimDark.MankindsFinest</li>
+
+    </loadAfter>
+    <incompatibleWith>
+        <li>phonicmas.40kideology</li>
+        <li>phonicmas.40kcore</li>
+        <li>phonicmas.40kgenes</li>
+    </incompatibleWith>
+</ModMetaData>
