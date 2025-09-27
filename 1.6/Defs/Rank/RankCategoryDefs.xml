@@ -266,7 +266,7 @@
         </ranks>
     </Core40k.RankCategoryDef>
 
-    <!-- <Core40k.RankCategoryDef>
+    <Core40k.RankCategoryDef>
         <defName>KHWH_AstraMilitarumSpecialRankCategory</defName>
         <label>Ministorum</label>
         <description>Special Ranks of the astra militarum.</description>
@@ -276,7 +276,7 @@
                 <displayPosition>(0, 2)</displayPosition>
             </li>
         </ranks>
-    </Core40k.RankCategoryDef> -->
+    </Core40k.RankCategoryDef>
 
 
 </Defs>

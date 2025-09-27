@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+    <KHWH.RankSystem.MinimumBiologicalAge>Must be more than {0} years old</KHWH.RankSystem.MinimumBiologicalAge>
+    <KHWH.RankSystem.MaximumBiologicalAge>Must be less than {0} years old</KHWH.RankSystem.MaximumBiologicalAge>
+
+</LanguageData>
