@@ -68,20 +68,41 @@
         <rankTier>1</rankTier>
         <specialistRank>true</specialistRank>
         <incompatibleRanks>
-            <li>KHWH_AstraMilitarumRankQuartermaster</li>
             <li>KHWH_AstraMilitarumRankMarksman</li>
             <li>KHWH_AstraMilitarumRankEngineer</li>
             <li>KHWH_AstraMilitarumRankChirurgeon</li>
         </incompatibleRanks>
         <requiredSkills>
-            <Intellectual>5</Intellectual>
+            <Intellectual>4</Intellectual>
+            <Social>3</Social>
         </requiredSkills>
         <statOffsets>
             <ResearchSpeed>0.05</ResearchSpeed>
+            <WorkSpeedGlobal>0.02</WorkSpeedGlobal>
+            <GlobalLearningFactor>0.02</GlobalLearningFactor>
         </statOffsets>
+    </Core40k.RankDef>
+
+    <Core40k.RankDef>
+        <defName>KHWH_AstraMilitarumRankQuartermaster</defName>
+        <label>Quartermaster</label>
+        <description>Manages equipment and provisions</description>
+        <rankIconPath>UI/Ranks/Militarum/KHWH_AstraMilitarumRankSupplyOfficer</rankIconPath>
+        <rankTier>1</rankTier>
+        <specialistRank>true</specialistRank>
+        <requiredSkills>
+            <Social>5</Social>
+            <Intellectual>6</Intellectual>
+        </requiredSkills>
+
         <statFactors>
-            <GlobalLearningFactor>1.01</GlobalLearningFactor>
+            <CaravanBonusSpeedFactor>1.2</CaravanBonusSpeedFactor>
         </statFactors>
+        <statOffsets>
+            <WorkSpeedGlobal>0.02</WorkSpeedGlobal>
+            <CarryingCapacity>5</CarryingCapacity>
+            <NegotiationAbility>0.1</NegotiationAbility>
+        </statOffsets>
     </Core40k.RankDef>
 
     <Core40k.RankDef>
@@ -92,114 +113,17 @@
         <rankTier>3</rankTier>
         <specialistRank>true</specialistRank>
         <requiredSkills>
-            <Social>4</Social>
-            <Intellectual>9</Intellectual>
-        </requiredSkills>
-        <statOffsets>
-            <ResearchSpeed>0.1</ResearchSpeed>
-            <ReadingSpeed>0.05</ReadingSpeed>
-        </statOffsets>
-        <statFactors>
-            <GlobalLearningFactor>1.015</GlobalLearningFactor>
-        </statFactors>
-    </Core40k.RankDef>
-
-    <Core40k.RankDef>
-        <defName>KHWH_AstraMilitarumRankOrdinate</defName>
-        <label>Ordinate</label>
-        <description>High administrator</description>
-        <rankIconPath>UI/Ranks/Militarum/KHWH_AstraMilitarumRankOrdinate</rankIconPath>
-        <rankTier>6</rankTier>
-        <colonyLimitOfRank>(1, 0)</colonyLimitOfRank>
-        <specialistRank>true</specialistRank>
-
-        <requiredSkills>
             <Social>6</Social>
-            <Intellectual>12</Intellectual>
+            <Intellectual>8</Intellectual>
         </requiredSkills>
         <statOffsets>
-            <ResearchSpeed>0.2</ResearchSpeed>
-            <ReadingSpeed>0.15</ReadingSpeed>
-        </statOffsets>
-
-        <statFactors>
-            <GlobalLearningFactor>1.025</GlobalLearningFactor>
-        </statFactors>
-    </Core40k.RankDef>
-
-    <!--    Quartermaster   -->
-    <Core40k.RankDef>
-        <defName>KHWH_AstraMilitarumRankQuartermaster</defName>
-        <label>Quartermaster</label>
-        <description>Manages equipment and provisions</description>
-        <rankIconPath>UI/Ranks/Militarum/KHWH_AstraMilitarumRankQuartermaster</rankIconPath>
-        <rankTier>1</rankTier>
-        <specialistRank>true</specialistRank>
-        <incompatibleRanks>
-            <li>KHWH_AstraMilitarumRankScribe</li>
-            <li>KHWH_AstraMilitarumRankChirurgeon</li>
-            <li>KHWH_AstraMilitarumRankEngineer</li>
-            <li>KHWH_AstraMilitarumRankMarksman</li>
-        </incompatibleRanks>
-        <requiredSkills>
-            <Social>3</Social>
-            <Intellectual>2</Intellectual>
-            <Crafting>3</Crafting>
-        </requiredSkills>
-
-        <statFactors>
-            <CaravanBonusSpeedFactor>1.2</CaravanBonusSpeedFactor>
-        </statFactors>
-        <statOffsets>
-            <WorkSpeedGlobal>0.05</WorkSpeedGlobal>
+            <ResearchSpeed>0.15</ResearchSpeed>
+            <ReadingSpeed>0.1</ReadingSpeed>
             <CarryingCapacity>5</CarryingCapacity>
+            <GlobalLearningFactor>0.02</GlobalLearningFactor>
         </statOffsets>
-    </Core40k.RankDef>
-
-    <Core40k.RankDef>
-        <defName>KHWH_AstraMilitarumRankSupplyOfficer</defName>
-        <label>Supply Officer</label>
-        <description>Oversees large-scale logistics</description>
-        <rankIconPath>UI/Ranks/Militarum/KHWH_AstraMilitarumRankSupplyOfficer</rankIconPath>
-        <rankTier>3</rankTier>
-        <specialistRank>true</specialistRank>
-        <requiredSkills>
-            <Social>5</Social>
-            <Intellectual>5</Intellectual>
-            <Crafting>4</Crafting>
-        </requiredSkills>
-
-        <statOffsets>
-            <NegotiationAbility>0.2</NegotiationAbility>
-            <CarryingCapacity>5</CarryingCapacity>
-        </statOffsets>
-        <statFactors>
-            <WorkSpeedGlobal>0.05</WorkSpeedGlobal>
-            <TradePriceImprovement>1.1</TradePriceImprovement>
-        </statFactors>
-    </Core40k.RankDef>
-
-    <Core40k.RankDef>
-        <defName>KHWH_AstraMilitarumRankLogisticMaster</defName>
-        <label>Master of logistics</label>
-        <description>Senior logistic authority</description>
-        <rankIconPath>UI/Ranks/Militarum/KHWH_AstraMilitarumRankLogisticMaster</rankIconPath>
-        <rankTier>6</rankTier>
-        <colonyLimitOfRank>(1, 0)</colonyLimitOfRank>
-        <specialistRank>true</specialistRank>
-        <requiredSkills>
-            <Social>7</Social>
-            <Intellectual>7</Intellectual>
-            <Crafting>6</Crafting>
-        </requiredSkills>
-
         <statFactors>
             <TradePriceImprovement>1.2</TradePriceImprovement>
-            <CaravanBonusSpeedFactor>1.3</CaravanBonusSpeedFactor>
-        </statFactors>
-
-        <statFactors>
-            <WorkSpeedGlobal>0.05</WorkSpeedGlobal>
         </statFactors>
     </Core40k.RankDef>
 </Defs>

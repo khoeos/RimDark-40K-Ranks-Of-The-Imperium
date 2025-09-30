@@ -68,10 +68,10 @@
         </requiredSkills>
 
         <statOffsets>
-            <BEWH_ArtificialPartsAffinityFactor>0.05</BEWH_ArtificialPartsAffinityFactor>
-            <ConstructionSpeed>0.05</ConstructionSpeed>
-            <ConstructSuccessChance>0.2</ConstructSuccessChance>
-            <WorkSpeedGlobal>0.05</WorkSpeedGlobal>
+            <BEWH_ArtificialPartsAffinityFactor>0.1</BEWH_ArtificialPartsAffinityFactor>
+            <ConstructionSpeed>0.1</ConstructionSpeed>
+            <ConstructSuccessChance>0.3</ConstructSuccessChance>
+            <WorkSpeedGlobal>0.1</WorkSpeedGlobal>
             <MechBandwidth MayRequire="Ludeon.RimWorld.Biotech">1</MechBandwidth>
         </statOffsets>
 
