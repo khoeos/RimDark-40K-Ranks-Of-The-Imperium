@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+    
+
+        <Core40k.RankDef>
+            <defName>KHWH_ScholaRankTempestusScion</defName>
+            <label>Tempestus Scion</label>
+            <description>Placeholder</description>
+            <rankIconPath>UI/Ranks/Militarum/KHWH_AstraMilitarumRankRecruit</rankIconPath>
+
+            <rankTier>1</rankTier>
+
+
+        </Core40k.RankDef>
+
+        <Core40k.RankDef>
+            <defName>KHWH_ScholaRankTempestusStormtrooper</defName>
+            <label>Storm Trooper</label>
+            <description>Placeholder</description>
+            <rankIconPath>UI/Ranks/Militarum/KHWH_AstraMilitarumRankRecruit</rankIconPath>
+
+            <rankTier>3</rankTier>
+
+        </Core40k.RankDef>
+
+        <Core40k.RankDef>
+            <defName>KHWH_ScholaRankTempestusGrenadier</defName>
+            <label>Grenadier</label>
+            <description>Placeholder</description>
+            <rankIconPath>UI/Ranks/Militarum/KHWH_AstraMilitarumRankRecruit</rankIconPath>
+
+            <rankTier>3</rankTier>
+            
+
+        </Core40k.RankDef>
+
+        <Core40k.RankDef>
+            <defName>KHWH_ScholaRankTempestusTempestusAquillon</defName>
+            <label>Aquillon</label>
+            <description>Placeholder</description>
+            <rankIconPath>UI/Ranks/Militarum/KHWH_AstraMilitarumRankRecruit</rankIconPath>
+
+            <rankTier>3</rankTier>
+            
+
+        </Core40k.RankDef>
+
+        <Core40k.RankDef>
+            <defName>KHWH_ScholaRankTempestor</defName>
+            <label>Tempestor</label>
+            <description>Placeholder</description>
+            <rankIconPath>UI/Ranks/Militarum/KHWH_AstraMilitarumRankRecruit</rankIconPath>
+
+            <rankTier>6</rankTier>
+            
+
+        </Core40k.RankDef>
+
+        <Core40k.RankDef>
+            <defName>KHWH_ScholaRankTempestorPrime</defName>
+            <label>Tempestor Prime</label>
+            <description>Placeholder</description>
+            <rankIconPath>UI/Ranks/Militarum/KHWH_AstraMilitarumRankRecruit</rankIconPath>
+
+            <rankTier>8</rankTier>
+
+            
+
+        </Core40k.RankDef>
+
+
+</Defs>

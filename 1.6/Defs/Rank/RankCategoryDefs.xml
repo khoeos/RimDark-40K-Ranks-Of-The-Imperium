@@ -20,10 +20,9 @@
             <li>
                 <rankDef>KHWH_AstraMilitarumRankMarksman</rankDef>
                 <displayPosition>(3, 4)</displayPosition>
-                <rankRequirementsOneAmong>
-                    <KHWH_AstraMilitarumRankScout>10</KHWH_AstraMilitarumRankScout>
-                    <KHWH_AstraMilitarumRankGuardsman>15</KHWH_AstraMilitarumRankGuardsman>
-                </rankRequirementsOneAmong>
+                <rankRequirements>
+                    <KHWH_AstraMilitarumRankGuardsman>10</KHWH_AstraMilitarumRankGuardsman>
+                </rankRequirements>
             </li>
 
             <!--    Recon - Sharpshooter   -->
@@ -267,13 +266,130 @@
     </Core40k.RankCategoryDef>
 
     <Core40k.RankCategoryDef>
-        <defName>KHWH_AstraMilitarumSpecialRankCategory</defName>
-        <label>Ministorum</label>
-        <description>Special Ranks of the astra militarum.</description>
+        <defName>KHWH_ScholaRankCategory</defName>
+        <label>Schola</label>
+        <description>Orphans trained to give their lives in the service of the Emperor.</description>
         <ranks>
             <li>
-                <rankDef>KHWH_Ministorum_Progena</rankDef>
+                <rankDef>KHWH_ScholaRankProgena</rankDef>
                 <displayPosition>(0, 2)</displayPosition>
+            </li>
+            <li>
+                <rankDef>KHWH_ScholaRankCadet</rankDef>
+                <displayPosition>(1, 2)</displayPosition>
+                <rankRequirements>
+                    <KHWH_ScholaRankProgena>1</KHWH_ScholaRankProgena>
+                </rankRequirements>
+            </li>
+            <!--     Tempestus Scion       -->
+            <li>
+                <rankDef>KHWH_ScholaRankTempestusScion</rankDef>
+                <displayPosition>(3, 0)</displayPosition>
+                <rankRequirements>
+                    <KHWH_ScholaRankCadet>1</KHWH_ScholaRankCadet>
+                </rankRequirements>
+            </li>
+            <li>
+                <rankDef>KHWH_ScholaRankTempestusStormtrooper</rankDef>
+                <displayPosition>(5, -1)</displayPosition>
+                <rankRequirements>
+                    <KHWH_ScholaRankTempestusScion>1</KHWH_ScholaRankTempestusScion>
+                </rankRequirements>
+            </li>
+            <li>
+                <rankDef>KHWH_ScholaRankTempestusGrenadier</rankDef>
+                <displayPosition>(5, 0)</displayPosition>
+                <rankRequirements>
+                    <KHWH_ScholaRankTempestusScion>1</KHWH_ScholaRankTempestusScion>
+                </rankRequirements>
+            </li>
+            <li>
+                <rankDef>KHWH_ScholaRankTempestusTempestusAquillon</rankDef>
+                <displayPosition>(5, 1)</displayPosition>
+                <rankRequirements>
+                    <KHWH_ScholaRankTempestusScion>1</KHWH_ScholaRankTempestusScion>
+                </rankRequirements>
+            </li>
+            <li>
+                <rankDef>KHWH_ScholaRankTempestor</rankDef>
+                <displayPosition>(7, 0)</displayPosition>
+                <rankRequirements>
+                    <KHWH_ScholaRankTempestusTempestusAquillon>1</KHWH_ScholaRankTempestusTempestusAquillon>
+                    <KHWH_ScholaRankTempestusGrenadier>1</KHWH_ScholaRankTempestusGrenadier>
+                    <KHWH_ScholaRankTempestusStormtrooper>1</KHWH_ScholaRankTempestusStormtrooper>
+                </rankRequirements>
+            </li>
+            <li>
+                <rankDef>KHWH_ScholaRankTempestorPrime</rankDef>
+                <displayPosition>(9, 0)</displayPosition>
+                <rankRequirements>
+                    <KHWH_ScholaRankTempestor>1</KHWH_ScholaRankTempestor>
+                </rankRequirements>
+            </li>
+            <!--     Commissar       -->
+            <li>
+                <rankDef>KHWH_ScholaRankCadetCommissar</rankDef>
+                <displayPosition>(3, 2)</displayPosition>
+                <rankRequirements>
+                    <KHWH_ScholaRankCadet>1</KHWH_ScholaRankCadet>
+                </rankRequirements>
+            </li>
+            <li>
+                <rankDef>KHWH_ScholaRankCommissar</rankDef>
+                <displayPosition>(5, 2)</displayPosition>
+                <rankRequirements>
+                    <KHWH_ScholaRankCadetCommissar>1</KHWH_ScholaRankCadetCommissar>
+                </rankRequirements>
+            </li>
+            <li>
+                <rankDef>KHWH_ScholaRankCommissarCaptain</rankDef>
+                <displayPosition>(7, 2)</displayPosition>
+                <rankRequirements>
+                    <KHWH_ScholaRankCommissar>1</KHWH_ScholaRankCommissar>
+                </rankRequirements>
+            </li>
+            <li>
+                <rankDef>KHWH_ScholaRankLordCommissar</rankDef>
+                <displayPosition>(9, 2)</displayPosition>
+                <rankRequirements>
+                    <KHWH_ScholaRankCommissarCaptain>1</KHWH_ScholaRankCommissarCaptain>
+                </rankRequirements>
+            </li>
+            <li>
+                <rankDef>KHWH_ScholaRankCommissarGeneral</rankDef>
+                <displayPosition>(11, 2)</displayPosition>
+                <rankRequirements>
+                    <KHWH_ScholaRankLordCommissar>1</KHWH_ScholaRankLordCommissar>
+                </rankRequirements>
+            </li>
+            <!--     Inquisitor       -->
+            <li>
+                <rankDef>KHWH_ScholaRankExplicator</rankDef>
+                <displayPosition>(3, 3)</displayPosition>
+                <rankRequirements>
+                    <KHWH_ScholaRankCadet>1</KHWH_ScholaRankCadet>
+                </rankRequirements>
+            </li>
+            <li>
+                <rankDef>KHWH_ScholaRankInterrogator</rankDef>
+                <displayPosition>(5, 3)</displayPosition>
+                <rankRequirements>
+                    <KHWH_ScholaRankExplicator>1</KHWH_ScholaRankExplicator>
+                </rankRequirements>
+            </li>
+            <li>
+                <rankDef>KHWH_ScholaRankInquisitor</rankDef>
+                <displayPosition>(7, 3)</displayPosition>
+                <rankRequirements>
+                    <KHWH_ScholaRankInterrogator>1</KHWH_ScholaRankInterrogator>
+                </rankRequirements>
+            </li>
+            <li>
+                <rankDef>KHWH_ScholaRankInquisitorLord</rankDef>
+                <displayPosition>(9, 3)</displayPosition>
+                <rankRequirements>
+                    <KHWH_ScholaRankInquisitor>1</KHWH_ScholaRankInquisitor>
+                </rankRequirements>
             </li>
         </ranks>
     </Core40k.RankCategoryDef>

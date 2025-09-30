@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+        <Core40k.RankDef>
+            <defName>KHWH_ScholaRankCadetCommissar</defName>
+            <label>Cadet Commissar</label>
+            <description>Placeholder</description>
+            <rankIconPath>UI/Ranks/Militarum/KHWH_AstraMilitarumRankRecruit</rankIconPath>
+            <rankTier>2</rankTier>
+        </Core40k.RankDef>
+        <Core40k.RankDef>
+            <defName>KHWH_ScholaRankCommissar</defName>
+            <label>Commissar</label>
+            <description>Placeholder</description>
+            <rankIconPath>UI/Ranks/Militarum/KHWH_AstraMilitarumRankRecruit</rankIconPath>
+            <rankTier>3</rankTier>
+        </Core40k.RankDef>
+        <Core40k.RankDef>
+            <defName>KHWH_ScholaRankCommissarCaptain</defName>
+            <label>Commissar Captain</label>
+            <description>Placeholder</description>
+            <rankIconPath>UI/Ranks/Militarum/KHWH_AstraMilitarumRankRecruit</rankIconPath>
+            <rankTier>3</rankTier>
+        </Core40k.RankDef>
+        <Core40k.RankDef>
+            <defName>KHWH_ScholaRankLordCommissar</defName>
+            <label>Lord Commissar</label>
+            <description>Placeholder</description>
+            <rankIconPath>UI/Ranks/Militarum/KHWH_AstraMilitarumRankRecruit</rankIconPath>
+            <rankTier>4</rankTier>
+        </Core40k.RankDef>
+        <Core40k.RankDef>
+            <defName>KHWH_ScholaRankCommissarGeneral</defName>
+            <label>Commissar General</label>
+            <description>Placeholder</description>
+            <rankIconPath>UI/Ranks/Militarum/KHWH_AstraMilitarumRankRecruit</rankIconPath>
+            <rankTier>5</rankTier>
+        </Core40k.RankDef>
+</Defs>

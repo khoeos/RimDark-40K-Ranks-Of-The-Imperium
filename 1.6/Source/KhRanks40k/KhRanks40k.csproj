@@ -68,6 +68,7 @@
         <Compile Include="HarmonyPatches\HarmonyTreePatch.cs"/>
         <Compile Include="KhRanks40kMod.cs"/>
         <Compile Include="Properties\AssemblyInfo.cs"/>
+        <Compile Include="Rank\ExpandedRankCategoryDef.cs" />
         <Compile Include="Rank\ExpandedRankDef.cs"/>
         <Compile Include="Rank\ITab_CustomRankSystem.cs"/>
     </ItemGroup>

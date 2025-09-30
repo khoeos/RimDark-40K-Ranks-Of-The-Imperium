@@ -3,7 +3,7 @@
     <!--    Field officer  -->
     <!--     -->
     <KhRanks40k.ExpandedRankDef>
-        <defName>KHWH_Ministorum_Progena</defName>
+        <defName>KHWH_ScholaRankProgena</defName>
         <label>Progena</label>
         <description>lorem</description>
         <rankIconPath>UI/Ranks/Militarum/KHWH_AstraMilitarumRankRecruit</rankIconPath>
@@ -11,6 +11,15 @@
         <rankTier>0</rankTier>
         <requiredAgeRange>(3, 12)</requiredAgeRange>
 
+    </KhRanks40k.ExpandedRankDef>
+
+    <KhRanks40k.ExpandedRankDef>
+        <defName>KHWH_ScholaRankCadet</defName>
+        <label>Cadet</label>
+        <description>Placeholder</description>
+        <rankIconPath>UI/Ranks/Militarum/KHWH_AstraMilitarumRankRecruit</rankIconPath>
+        <rankTier>1</rankTier>
+        <requiredAgeRange>(16, -1)</requiredAgeRange>
     </KhRanks40k.ExpandedRankDef>
 
 

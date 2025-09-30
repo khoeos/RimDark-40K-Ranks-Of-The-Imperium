@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+    <Core40k.RankDef>
+        <defName>KHWH_ScholaRankExplicator</defName>
+        <label>Explicator</label>
+        <description>Placeholder</description>
+        <rankIconPath>UI/Ranks/Militarum/KHWH_AstraMilitarumRankRecruit</rankIconPath>
+        <rankTier>2</rankTier>
+    </Core40k.RankDef>
+    <Core40k.RankDef>
+        <defName>KHWH_ScholaRankInterrogator</defName>
+        <label>Interrogator</label>
+        <description>Placeholder</description>
+        <rankIconPath>UI/Ranks/Militarum/KHWH_AstraMilitarumRankRecruit</rankIconPath>
+        <rankTier>3</rankTier>
+    </Core40k.RankDef>
+    <Core40k.RankDef>
+        <defName>KHWH_ScholaRankInquisitor</defName>
+        <label>Inquisitor</label>
+        <description>Placeholder</description>
+        <rankIconPath>UI/Ranks/Militarum/KHWH_AstraMilitarumRankRecruit</rankIconPath>
+        <rankTier>3</rankTier>
+    </Core40k.RankDef>
+    <Core40k.RankDef>
+        <defName>KHWH_ScholaRankInquisitorLord</defName>
+        <label>Inquisitor Lors</label>
+        <description>Placeholder</description>
+        <rankIconPath>UI/Ranks/Militarum/KHWH_AstraMilitarumRankRecruit</rankIconPath>
+        <rankTier>4</rankTier>
+    </Core40k.RankDef>
+</Defs>
