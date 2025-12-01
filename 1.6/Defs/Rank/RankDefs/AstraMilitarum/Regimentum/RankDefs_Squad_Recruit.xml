@@ -16,6 +16,10 @@
         <incompatibleRanks>
             <li>KHWH_AstraMilitarumRankConscript</li>
         </incompatibleRanks>
+        <statOffsets>
+            <GlobalLearningFactor>0.01</GlobalLearningFactor>
+            <ShootingAccuracyPawn>0.1</ShootingAccuracyPawn>
+        </statOffsets>
     </Core40k.RankDef>
 
     <Core40k.RankDef>

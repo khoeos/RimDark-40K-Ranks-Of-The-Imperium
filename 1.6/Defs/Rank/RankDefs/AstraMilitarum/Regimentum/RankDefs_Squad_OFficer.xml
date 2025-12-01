@@ -84,6 +84,8 @@
             <CertaintyLossFactor MayRequire="Ludeon.RimWorld.Ideology">-0.05</CertaintyLossFactor>
             <SocialImpact>0.1</SocialImpact>
             <NegotiationAbility>0.1</NegotiationAbility>
+            <RangedCooldownFactor>-0.02</RangedCooldownFactor>
+            <MeleeCooldownFactor>-0.02</MeleeCooldownFactor>
         </statOffsets>
     </Core40k.RankDef>
 
@@ -106,6 +108,8 @@
             <CertaintyLossFactor MayRequire="Ludeon.RimWorld.Ideology">-0.1</CertaintyLossFactor>
             <SocialImpact>0.2</SocialImpact>
             <NegotiationAbility>0.1</NegotiationAbility>
+            <RangedCooldownFactor>-0.02</RangedCooldownFactor>
+            <MeleeCooldownFactor>-0.02</MeleeCooldownFactor>
         </statOffsets>
     </Core40k.RankDef>
 
@@ -127,6 +131,8 @@
         <statOffsets>
             <CertaintyLossFactor MayRequire="Ludeon.RimWorld.Ideology">-0.5</CertaintyLossFactor>
             <SocialImpact>0.4</SocialImpact>
+            <RangedCooldownFactor>-0.02</RangedCooldownFactor>
+            <MeleeCooldownFactor>-0.02</MeleeCooldownFactor>
         </statOffsets>
     </Core40k.RankDef>
 

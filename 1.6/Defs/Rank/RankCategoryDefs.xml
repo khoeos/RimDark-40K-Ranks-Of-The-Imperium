@@ -170,48 +170,22 @@
                     <KHWH_AstraMilitarumRankRecruit>15</KHWH_AstraMilitarumRankRecruit>
                 </rankRequirements>
             </li>
-
             <li>
-                <rankDef>KHWH_AstraMilitarumRankLogistician</rankDef>
-                <displayPosition>(3, -1)</displayPosition>
+                <rankDef>KHWH_AstraMilitarumRankQuartermaster</rankDef>
+                <displayPosition>(3,-1)</displayPosition>
                 <rankRequirements>
                     <KHWH_AstraMilitarumRankScribe>15</KHWH_AstraMilitarumRankScribe>
                 </rankRequirements>
             </li>
-
             <li>
-                <rankDef>KHWH_AstraMilitarumRankOrdinate</rankDef>
+                <rankDef>KHWH_AstraMilitarumRankLogistician</rankDef>
                 <displayPosition>(6, -1)</displayPosition>
-                <rankRequirements>
-                    <KHWH_AstraMilitarumRankLogistician>25</KHWH_AstraMilitarumRankLogistician>
-                </rankRequirements>
-            </li>
-
-            <!--    Quartermaster   -->
-            <li>
-                <rankDef>KHWH_AstraMilitarumRankQuartermaster</rankDef>
-                <displayPosition>(1, -2)</displayPosition>
-                <rankRequirements>
-                    <KHWH_AstraMilitarumRankRecruit>15</KHWH_AstraMilitarumRankRecruit>
-                </rankRequirements>
-            </li>
-
-            <li>
-                <rankDef>KHWH_AstraMilitarumRankSupplyOfficer</rankDef>
-                <displayPosition>(3, -2)</displayPosition>
                 <rankRequirements>
                     <KHWH_AstraMilitarumRankQuartermaster>15</KHWH_AstraMilitarumRankQuartermaster>
                 </rankRequirements>
             </li>
 
-            <li>
-                <rankDef>KHWH_AstraMilitarumRankLogisticMaster</rankDef>
-                <displayPosition>(6, -2)</displayPosition>
-                <rankRequirements>
-                    <KHWH_AstraMilitarumRankSupplyOfficer>25</KHWH_AstraMilitarumRankSupplyOfficer>
-                </rankRequirements>
-
-            </li>
+            <!--    Quartermaster   -->
             <li>
                 <rankDef>KHWH_AstraMilitarumRankOfficerCadet</rankDef>
                 <displayPosition>(0, 5)</displayPosition>
@@ -266,10 +240,21 @@
         </ranks>
     </Core40k.RankCategoryDef>
 
-    <!-- <Core40k.RankCategoryDef>
-        <defName>KHWH_AstraMilitarumSpecialRankCategory</defName>
-        <label>Ministorum</label>
-        <description>Special Ranks of the astra militarum.</description>
+<!--    <Core40k.RankCategoryDef MayRequire="Ludeon.RimWorld.Ideology">-->
+<!--        <defName>KHWH_PenalRankCategory</defName>-->
+<!--        <label>Penal</label>-->
+<!--        <ranks>-->
+<!--            <li>-->
+<!--                <rankDef>KHWH_ScholaRankProgena</rankDef>-->
+<!--                <displayPosition>(0, 2)</displayPosition>-->
+<!--            </li>-->
+<!--        </ranks>-->
+<!--    </Core40k.RankCategoryDef>
+
+    <Core40k.RankCategoryDef>
+        <defName>KHWH_ScholaRankCategory</defName>
+        <label>Schola</label>
+        <description>Orphans trained to give their lives in the service of the Emperor.</description>
         <ranks>
             <li>
                 <rankDef>KHWH_Ministorum_Progena</rankDef>

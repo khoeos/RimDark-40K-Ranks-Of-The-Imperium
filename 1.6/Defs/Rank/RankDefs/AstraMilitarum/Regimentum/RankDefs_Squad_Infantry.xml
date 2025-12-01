@@ -13,6 +13,11 @@
             <Shooting>4</Shooting>
             <Melee>4</Melee>
         </requiredSkills>
+
+        <statOffsets>
+            <PainShockThreshold>0.05</PainShockThreshold>
+            <ShootingAccuracyPawn>0.2</ShootingAccuracyPawn>
+        </statOffsets>
     </Core40k.RankDef>
 
     <!--     -->
@@ -31,7 +36,7 @@
         <statOffsets>
             <MeleeDodgeChance>0.25</MeleeDodgeChance>
             <MoveSpeed>0.025</MoveSpeed>
-            <MentalBreakThreshold>0.1</MentalBreakThreshold>
+            <MentalBreakThreshold>-0.1</MentalBreakThreshold>
         </statOffsets>
 
     </Core40k.RankDef>
@@ -88,13 +93,13 @@
         <statOffsets>
             <CertaintyLossFactor MayRequire="Ludeon.RimWorld.Ideology">-0.05</CertaintyLossFactor>
             <MeleeDodgeChance>0.6</MeleeDodgeChance>
-            <RangedCooldownFactor>-0.04</RangedCooldownFactor>
-            <MeleeCooldownFactor>-0.04</MeleeCooldownFactor>
+            <RangedCooldownFactor>-0.05</RangedCooldownFactor>
+            <MeleeCooldownFactor>-0.05</MeleeCooldownFactor>
         </statOffsets>
 
         <statFactors>
-            <ShootingAccuracyPawn>1.01</ShootingAccuracyPawn>
-            <MeleeHitChance>1.02</MeleeHitChance>
+            <ShootingAccuracyPawn>1.05</ShootingAccuracyPawn>
+            <MeleeHitChance>1.05</MeleeHitChance>
         </statFactors>
     </Core40k.RankDef>
 
@@ -131,7 +136,7 @@
         </statOffsets>
 
         <statFactors>
-            <PainShockThreshold>1.1</PainShockThreshold>
+            <PainShockThreshold>1.3</PainShockThreshold>
         </statFactors>
     </Core40k.RankDef>
 
@@ -151,14 +156,14 @@
         </requiredSkills>
         <statOffsets>
             <CertaintyLossFactor MayRequire="Ludeon.RimWorld.Ideology">-0.05</CertaintyLossFactor>
-            <MeleeDodgeChance>0.75</MeleeDodgeChance>
+            <MeleeDodgeChance>0.9</MeleeDodgeChance>
             <RangedCooldownFactor>-0.05</RangedCooldownFactor>
             <MeleeCooldownFactor>-0.05</MeleeCooldownFactor>
         </statOffsets>
 
         <statFactors>
-            <ShootingAccuracyPawn>1.02</ShootingAccuracyPawn>
-            <MeleeHitChance>1.03</MeleeHitChance>
+            <ShootingAccuracyPawn>1.1</ShootingAccuracyPawn>
+            <MeleeHitChance>1.2</MeleeHitChance>
         </statFactors>
     </Core40k.RankDef>
 

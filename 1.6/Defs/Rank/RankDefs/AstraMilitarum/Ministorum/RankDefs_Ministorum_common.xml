@@ -2,7 +2,7 @@
 <Defs>
     <!--    Field officer  -->
     <!--     -->
-    <KhRanks40k.ExpandedRankDef>
+    <!-- <KhRanks40k.ExpandedRankDef>
         <defName>KHWH_Ministorum_Progena</defName>
         <label>Progena</label>
         <description>lorem</description>
@@ -11,7 +11,7 @@
         <rankTier>0</rankTier>
         <requiredAgeRange>(3, 12)</requiredAgeRange>
 
-    </KhRanks40k.ExpandedRankDef>
+    </KhRanks40k.ExpandedRankDef> -->
 
 
 </Defs>
